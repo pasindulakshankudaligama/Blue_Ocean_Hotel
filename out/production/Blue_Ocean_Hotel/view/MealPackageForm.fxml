@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealPackageFormContext" prefHeight="484.0" prefWidth="658.0" style="-fx-background-color: #95a5a6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPackageFormController">
+   <children>
+      <Label layoutX="261.0" layoutY="33.0" text="Meal Plans">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#868484" height="371.0" layoutX="26.0" layoutY="67.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <JFXButton buttonType="RAISED" layoutX="581.0" layoutY="1.0" onAction="#backToHomeOnAction" style="-fx-background-color: #2980b9;" text="Logout" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="594.0" layoutY="444.0" onAction="#backToRoomPackageOnAction" style="-fx-background-color: #2980b9;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#868484" height="371.0" layoutX="226.0" layoutY="67.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#868484" height="371.0" layoutX="426.0" layoutY="67.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Line endX="499.0" layoutX="126.0" layoutY="106.0" startX="-100.0" />
+      <TextField alignment="CENTER" layoutX="41.0" layoutY="73.0" style="-fx-background-color: #868484;" text="Meal Type" />
+      <TextField alignment="CENTER" layoutX="243.0" layoutY="73.0" style="-fx-background-color: #868484;" text="Type" />
+      <TextField alignment="CENTER" layoutX="441.0" layoutY="73.0" style="-fx-background-color: #868484;" text="Price" />
+      <TextField alignment="CENTER" layoutX="41.0" layoutY="159.0" style="-fx-background-color: #868484;" text="Local meal" />
+      <TextField alignment="CENTER" layoutX="41.0" layoutY="253.0" style="-fx-background-color: #868484;" text="Chinese meal" />
+      <TextField alignment="CENTER" layoutX="41.0" layoutY="358.0" style="-fx-background-color: #868484;" text="French meal" />
+      <TextField alignment="CENTER" layoutX="243.0" layoutY="133.0" style="-fx-background-color: #868484;" text="Small" />
+      <TextField alignment="CENTER" layoutX="243.0" layoutY="159.0" style="-fx-background-color: #868484;" text="Medium" />
+      <TextField alignment="CENTER" layoutX="243.0" layoutY="185.0" style="-fx-background-color: #868484;" text="Large" />
+      <TextField alignment="CENTER" layoutX="240.0" layoutY="227.0" style="-fx-background-color: #868484;" text="Small" />
+      <TextField alignment="CENTER" layoutX="240.0" layoutY="253.0" style="-fx-background-color: #868484;" text="Medium" />
+      <TextField alignment="CENTER" layoutX="240.0" layoutY="279.0" style="-fx-background-color: #868484;" text="Large" />
+      <TextField alignment="CENTER" layoutX="243.0" layoutY="332.0" style="-fx-background-color: #868484;" text="Small" />
+      <TextField alignment="CENTER" layoutX="243.0" layoutY="358.0" style="-fx-background-color: #868484;" text="Medium" />
+      <TextField alignment="CENTER" layoutX="243.0" layoutY="384.0" style="-fx-background-color: #868484;" text="Large" />
+      <TextField alignment="CENTER" layoutX="448.0" layoutY="133.0" style="-fx-background-color: #868484;" text="Rs:200" />
+      <TextField alignment="CENTER" layoutX="441.0" layoutY="159.0" style="-fx-background-color: #868484;" text="Rs:400" />
+      <TextField alignment="CENTER" layoutX="441.0" layoutY="185.0" style="-fx-background-color: #868484;" text="Rs:600" />
+      <TextField alignment="CENTER" layoutX="441.0" layoutY="227.0" style="-fx-background-color: #868484;" text="Rs:600" />
+      <TextField alignment="CENTER" layoutX="441.0" layoutY="253.0" style="-fx-background-color: #868484;" text="Rs:800" />
+      <TextField alignment="CENTER" layoutX="441.0" layoutY="279.0" style="-fx-background-color: #868484;" text="Rs:1000" />
+      <TextField alignment="CENTER" layoutX="448.0" layoutY="332.0" style="-fx-background-color: #868484;" text="Rs:800" />
+      <TextField alignment="CENTER" layoutX="448.0" layoutY="358.0" style="-fx-background-color: #868484;" text="Rs:1000" />
+      <TextField alignment="CENTER" layoutX="448.0" layoutY="384.0" style="-fx-background-color: #868484;" text="Rs:1200" />
+      <ImageView fitHeight="408.0" fitWidth="600.0" layoutX="26.0" layoutY="36.0" opacity="0.08" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/Second.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

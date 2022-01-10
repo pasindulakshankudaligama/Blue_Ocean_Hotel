@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="viewFormContext" prefHeight="484.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewFormController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="581.0" layoutY="8.0" onAction="#backToHomeOnAction" style="-fx-background-color: #2980b9;" text="Logout" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="595.0" layoutY="444.0" onAction="#backToDashBoardOnAction" style="-fx-background-color: #2980b9;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TableView layoutX="13.0" layoutY="42.0" prefHeight="396.0" prefWidth="632.0">
+        <columns>
+          <TableColumn prefWidth="132.0" text="Name" />
+          <TableColumn prefWidth="116.0" text="N.I.C" />
+            <TableColumn prefWidth="119.0" text="TeL:" />
+            <TableColumn prefWidth="128.0" text="Email" />
+            <TableColumn prefWidth="136.0" text="Address" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

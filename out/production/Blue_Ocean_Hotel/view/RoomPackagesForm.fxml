@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="roomPackageFormContext" prefHeight="484.0" prefWidth="658.0" style="-fx-background-color: #bdc3c7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomPackagesFormController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="561.0" layoutY="14.0" onAction="#backToHomeOnAction" style="-fx-background-color: #2980b9;" text="Logout" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="600.0" layoutY="444.0" onAction="#openMealPlansOnAction" style="-fx-background-color: #2980b9;" text="Next" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="544.0" layoutY="444.0" onAction="#backToDashBoardOnAction" style="-fx-background-color: #2980b9;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#828282" height="386.0" layoutX="22.0" layoutY="49.0" stroke="BLACK" strokeType="INSIDE" width="315.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#828282" height="386.0" layoutX="336.0" layoutY="49.0" stroke="BLACK" strokeType="INSIDE" width="315.0" />
+      <Line endX="528.0" layoutX="123.0" layoutY="86.0" startX="-100.0" />
+      <TextField alignment="CENTER" layoutX="120.0" layoutY="49.0" prefHeight="28.0" prefWidth="126.0" style="-fx-background-color: #828282;" text="Room Type">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="431.0" layoutY="49.0" prefHeight="28.0" prefWidth="126.0" style="-fx-background-color: #828282;" text="Price">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="75.0" layoutY="125.0" style="-fx-background-color: #828282;" text="Single Room">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="75.0" layoutY="210.0" style="-fx-background-color: #828282;" text="Double Room">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="75.0" layoutY="291.0" style="-fx-background-color: #828282;" text="Triple Room">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="78.0" layoutY="362.0" style="-fx-background-color: #828282;" text="Quard Room">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="389.0" layoutY="125.0" style="-fx-background-color: #828282;" text="Rs:3000">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="389.0" layoutY="210.0" style="-fx-background-color: #828282;" text="Rs:5000">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="389.0" layoutY="291.0" style="-fx-background-color: #828282;" text="Rs:8000">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="389.0" layoutY="362.0" style="-fx-background-color: #828282;" text="Rs:12000">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="397.0" fitWidth="669.0" layoutY="43.0" opacity="0.57" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/Second.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

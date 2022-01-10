@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="993.0" style="-fx-background-color: #95a5a6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <AnchorPane fx:id="dashBoardFormContext" layoutX="14.0" layoutY="8.0" prefHeight="484.0" prefWidth="307.0" style="-fx-background-color: #2980b9;">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="19.0" layoutY="23.0" onAction="#openDashBoardFormOne" prefHeight="78.0" prefWidth="261.0" style="-fx-background-color: #e74c3c;" text="DashBoard" textFill="#371eda">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="141.0" onAction="#openBookingFormOnAction" prefHeight="78.0" prefWidth="261.0" style="-fx-background-color: #e74c3c;" text="Booking" textFill="#171bd3">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="19.0" layoutY="261.0" onAction="#openViewFormOnAction" prefHeight="78.0" prefWidth="261.0" style="-fx-background-color: #e74c3c;" text="view" textFill="#182aee">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="19.0" layoutY="365.0" onAction="#openPackageFormOnAction" prefHeight="78.0" prefWidth="261.0" style="-fx-background-color: #e74c3c;" text="Packages" textFill="#4503f8">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="dashboardFormInContext" layoutX="328.0" layoutY="8.0" prefHeight="484.0" prefWidth="658.0" style="-fx-background-color: #3498db;">
+         <children>
+            <ImageView fitHeight="484.0" fitWidth="659.0" layoutY="-1.0" opacity="0.57" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/Second.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

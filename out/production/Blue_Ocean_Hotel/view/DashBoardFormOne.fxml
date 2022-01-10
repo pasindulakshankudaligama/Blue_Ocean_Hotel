@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="484.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormOneController">
+   <children>
+      <JFXTextField alignment="CENTER" labelFloat="true" layoutX="37.0" layoutY="60.0" prefHeight="83.0" prefWidth="207.0" style="-fx-background-color: #2ecc71;" text=" All Rooms 25">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField labelFloat="true" layoutX="37.0" layoutY="190.0" prefHeight="83.0" prefWidth="207.0" style="-fx-background-color: #2ecc71;" text=" Available Rooms 13">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" labelFloat="true" layoutX="37.0" layoutY="323.0" prefHeight="83.0" prefWidth="207.0" style="-fx-background-color: #2ecc71;" text="All Guests 12">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" labelFloat="true" layoutX="329.0" layoutY="60.0" prefHeight="83.0" prefWidth="207.0" style="-fx-background-color: #2ecc71;" text=" All Booking 11">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" labelFloat="true" layoutX="329.0" layoutY="322.0" prefHeight="83.0" prefWidth="207.0" style="-fx-background-color: #2ecc71;" text="Meal Plans 03">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField labelFloat="true" layoutX="329.0" layoutY="190.0" prefHeight="83.0" prefWidth="216.0" style="-fx-background-color: #2ecc71;" text="maintance Rooms 01">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+   </children>
+</AnchorPane>

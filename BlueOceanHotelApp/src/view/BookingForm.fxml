@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="bookingFormContext" prefHeight="484.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookingFormController">
+   <children>
+      <Label layoutX="250.0" layoutY="42.0" prefHeight="29.0" prefWidth="158.0" text="Guest Details" textFill="#213aff">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <JFXTextField labelFloat="true" layoutX="40.0" layoutY="105.0" prefHeight="20.0" prefWidth="559.0" promptText="Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField labelFloat="true" layoutX="40.0" layoutY="173.0" prefHeight="20.0" prefWidth="559.0" promptText="N.I.C. Number:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField labelFloat="true" layoutX="40.0" layoutY="242.0" prefHeight="20.0" prefWidth="559.0" promptText="Phone Number:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField labelFloat="true" layoutX="40.0" layoutY="375.0" prefHeight="20.0" prefWidth="559.0" promptText="Address:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField labelFloat="true" layoutX="40.0" layoutY="306.0" prefHeight="20.0" prefWidth="559.0" promptText="Email:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="568.0" layoutY="444.0" onAction="#backToDashBoardOnAction" style="-fx-background-color: #2980b9;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="568.0" layoutY="14.0" onAction="#backToHomeOnAction" style="-fx-background-color: #2980b9;" text="Logout" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="40.0" layoutY="444.0" onAction="#btnSaveOnAction" style="-fx-background-color: #2ecc71;" text="Save" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>
